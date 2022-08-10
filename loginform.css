@@ -1,0 +1,80 @@
+#use{
+    font-family: Sans-Serif;
+    color: #000000;
+}
+
+body {
+    width: 300px;
+    height: 480px;
+    margin: 80px auto;
+    overflow: hidden;
+}
+
+#user {
+    border-radius: 10px;
+    border-color: #00EBFF;
+    overflow: hidden;
+    width: 276px;
+}
+
+#head {
+    font-family: Arial;
+    text-align: center;
+}
+
+#pass {
+    border-radius: 10px;
+    border-color: #00EBFF;
+    width: 276px;
+}
+
+#new {
+    font: 50px;
+    padding: 5px;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    width: 59%;
+    margin: auto;
+    background-color: green;
+}
+
+#log {
+    font-weight: bold;
+    font-family: Sans-Serif;
+    background-color: #1FAAFF;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-size: 100px;
+    padding: 5px;
+}
+
+#for {
+    color: #00D7FF;
+    font-family: Trebuchet MS;
+}
+
+div {
+    color: #00D7FF;
+    font-size: 12px;
+}
+
+#password {
+    font-family: Sans-Serif;
+}
+
+form {
+    padding: 10px;
+    box-shadow: 0px 0px 100px 5px #aaa;
+    border-radius: 8px;
+}
+
+button{
+    background-color: #1FAAFF;
+    color: white;
+    border: none;
+    font-weight: bold;
+    background-size: 100px;
+}

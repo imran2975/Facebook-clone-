@@ -1,0 +1,428 @@
+body{
+    background-color: gray;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 98px;
+    background-color: white;
+    z-index: 1;
+}
+
+#title{
+    /* positioning*/
+    position: absolute;
+    top: -10px;
+    left: 5px;
+    color: #007CFF;
+    /*font properties*/
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Arial;
+    
+}
+
+.first-row{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+.second-row{
+    position: absolute;
+    top: 55px;
+    left: 10px;
+    display: flex;
+    gap: 30px;
+}
+.nav{
+    width: 30px;
+    height: 30px;
+}
+
+#line1{
+    position: fixed;
+    top: 88px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.post{
+    position: relative;
+    top: 90px;
+    left: -7px;
+    width: 360px;
+    height: 110px;
+    background-color: white;
+}
+
+.prof{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #B3B3B3;
+    border-radius: 50%;
+}
+
+.online{
+    position: absolute;
+    top: 45px;
+    left: 40px;
+    width: 10px;
+    height: 10px;
+    background-color: #6EDA00;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+.text{
+    position: absolute;
+    top: 15px;
+    left: 70px;
+    background-color: #E3E3E3;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    color: black;
+    font-family: Arial;
+    width: 180px;
+    padding-left: 28px;
+}
+
+.images img{
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    object-fit: cover;
+    
+}
+
+#photo{
+    position: absolute;
+    top: 25px;
+    right: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+#line2{
+    position: absolute;
+    top: 67px;
+    left: 0;
+    width: 100%;
+}
+
+.feeling{
+    position: absolute;
+    top: 83px;
+    left: 10px;
+    display: flex;
+    gap: 25px;
+}
+
+.feeling a{
+    text-decoration: none;
+    font-family: Arial;
+    color: black;
+}
+
+.vid, .locate{
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+}
+
+.story{
+    overflow-x: scroll;
+    position: relative;
+    top: 100px;
+    left: -7px;
+    width: 360px;
+    height: 175px;
+    background-color: white;
+}
+
+.mypost{
+    position: absolute;
+    top: 5px;
+    left: 8px;
+    width: 100px;
+    height: 160px;
+    background-color: #E9E9E9;
+    border-radius: 10px;
+    border: 2px solid #D9D9D9;
+    
+}
+
+#mypost{
+    width: 100%;
+    height: 110px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+#plus{
+    position: absolute;
+    top: 70px;
+    left: 35px;
+    font-size: 25px;
+    background-color: #00ABFF;
+    color: white;
+    padding: 0 7px;
+    border: 2px solid white;
+    border-radius: 50%;
+    
+    
+}
+
+#add{
+    position: absolute;
+    top: 125px;
+    left: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+}
+
+.mystory{
+    position: absolute;
+    top: 5px;
+    left: 120px;
+    width: 100px;
+    height: 160px;
+    background-color: #E9E9E9;
+    border-radius: 10px;
+}
+
+.story1{
+    position: absolute;
+    top: 5px;
+    left: 230px;
+    width: 100px;
+    height: 160px;
+    background-color: #E9E9E9;
+    border-radius: 10px;
+}
+
+.story2{
+    position: absolute;
+    top: 5px;
+    left: 340px;
+    width: 100px;
+    height: 160px;
+    background-color: #E9E9E9;
+    border-radius: 10px;
+}
+
+.story3{
+    position: absolute;
+    top: 5px;
+    left: 452px;
+    width: 100px;
+    height: 160px;
+    background-color: #E9E9E9;
+    border-radius: 10px;
+}
+
+.story4{
+    position: absolute;
+    top: 5px;
+    left: 563px;
+    width: 100px;
+    height: 160px;
+    background-color: #E9E9E9;
+    border-radius: 10px;
+}
+
+#mystory,
+#story1,
+#story2,
+#story3,
+#story4{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#name,
+#name1,
+#name2,
+#name3,
+#name4{
+    position: absolute;
+    top: 120px;
+    left: 8px;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+}
+
+#count,
+#count1,
+#count2,
+#count3,
+#count4{
+    position: absolute;
+    top: -10px;
+    right: 10px;
+    background-color: #00ABFF;
+    font-family: Arial;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+}
+
+.timeline{
+    position: relative;
+    top: 110px;
+    left: -7px;
+    width: 360px;
+    height: 550px;
+    background-color: white;
+}
+
+.pro{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    width: 45px;
+    height: 45px;
+    border: 3px solid #00ABFF;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.online2{
+    position: absolute;
+    top: 48px;
+    left: 40px;
+    width: 10px;
+    height: 10px;
+    background-color: #6EDA00;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+#postname{
+    position: absolute;
+    top: 0;
+    left: 60px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+#posttime{
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    color: black;
+    font-weight: lighter;
+    font-family: Arial;
+    font-size: 10px;
+}
+
+#postoption{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    color: #D9D9D8;
+    letter-spacing: 5px;
+}
+
+#timeline{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+#reaction{
+    position: absolute;
+    top: 480px;
+    left: 5px;
+    display: flex;
+    gap: 3px;
+}
+
+.reaction2{
+    position: absolute;
+    top: 508px;
+    left: 10px;
+    display: flex;
+    gap:20px;
+}
+
+#like img{
+    width: 25px;
+    height: 25px;
+}
+
+#like{
+    background-color: #E3E3E3;
+    font-family: Arial;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    white-space: nowrap;
+    color: black;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.timeline2{
+    position: relative;
+    top: 120px;
+    left: -7px;
+    width: 360px;
+    height: 550px;
+    background-color: white;
+}
+
+.timeline3{
+    position: relative;
+    top: 130px;
+    left: -7px;
+    width: 360px;
+    height: 550px;
+    background-color: white;
+}
+
+.timeline4{
+    position: relative;
+    top: 140px;
+    left: -7px;
+    width: 360px;
+    height: 550px;
+    background-color: white;
+}
+
+.timeline5{
+    position: relative;
+    top: 150px;
+    left: -7px;
+    width: 360px;
+    height: 550px;
+    background-color: white;
+}
